@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "node": "hardhat node",
+    "node:persistent": "hardhat node --hostname 0.0.0.0 --port 8545",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:smart": "hardhat run scripts/smart-deploy.js --network localhost",
+    "test:contracts": "hardhat run test-contract-check.js --network localhost",
+    "ganache": "ganache --wallet.mnemonic='test test test test test test test test test test test junk' --server.port=8545 --chain.chainId=31337 --database.dbPath='./blockchain-data'",
+    "dev:setup": "npm run deploy:smart && npm run test:contracts"
+  },
+  "devDependencies": {
+    "ganache": "^7.9.1"
+  }
+}
