@@ -45,3 +45,6 @@ ou descompacte o arquivo .zip
 - URL do Explorador: deixe em branco
 
 - Importe uma conta das fornecidas pelo Hardhat usando a chave privadain.
+
+
+# Mais Informçãoes Sobre o uso do projeto Acesse o Wiki do Repositorio
