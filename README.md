@@ -47,4 +47,4 @@ ou descompacte o arquivo .zip
 - Importe uma conta das fornecidas pelo Hardhat usando a chave privadain.
 
 
-# Mais Informçãoes Sobre o uso do projeto Acesse o Wiki do Repositorio
+# Para mais Informçãoes Sobre o uso do projeto acesse o Wiki do Repositorio.
